@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BNO055">
+<smd name="P$1" x="-1.66" y="0.24" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$2" x="-1.66" y="-0.26" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$3" x="-1.66" y="-0.76" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$4" x="-1.66" y="-1.26" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$5" x="-1.66" y="-1.76" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$6" x="-1.66" y="-2.26" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$7" x="-1.66" y="0.74" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$8" x="-1.66" y="1.24" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$9" x="-1.66" y="1.74" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$10" x="-1.66" y="2.24" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$11" x="-1.66" y="2.74" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$12" x="1.6625" y="0.25" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$13" x="1.6625" y="-0.25" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$14" x="1.6625" y="-0.75" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$15" x="1.6625" y="-1.25" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$16" x="1.6625" y="-1.75" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$17" x="1.6625" y="-2.25" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$18" x="1.6625" y="0.75" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$19" x="1.6625" y="1.25" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$20" x="1.6625" y="1.75" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$21" x="1.6625" y="2.25" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$22" x="1.6625" y="2.75" dx="0.675" dy="0.25" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BNO055">
+<wire x1="-17.78" y1="25.4" x2="17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-25.4" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
+<pin name="PIN1" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="GND" x="7.62" y="30.48" length="middle" rot="R270"/>
+<pin name="VDD" x="2.54" y="30.48" length="middle" rot="R270"/>
+<pin name="BOOT_LOAD_PIN" x="-2.54" y="30.48" length="middle" rot="R270"/>
+<pin name="PS1" x="-7.62" y="30.48" length="middle" rot="R270"/>
+<pin name="PS0" x="-22.86" y="22.86" length="middle"/>
+<pin name="PIN7" x="-22.86" y="17.78" length="middle"/>
+<pin name="PIN8" x="-22.86" y="12.7" length="middle"/>
+<pin name="CAP" x="-22.86" y="7.62" length="middle"/>
+<pin name="PIN10" x="-22.86" y="2.54" length="middle"/>
+<pin name="RESET" x="-22.86" y="-2.54" length="middle"/>
+<pin name="PIN12" x="-22.86" y="-7.62" length="middle"/>
+<pin name="PIN13" x="-22.86" y="-12.7" length="middle"/>
+<pin name="INT" x="-22.86" y="-17.78" length="middle"/>
+<pin name="PIN15" x="-22.86" y="-22.86" length="middle"/>
+<pin name="PIN16" x="-7.62" y="-30.48" length="middle" rot="R90"/>
+<pin name="COM3" x="-2.54" y="-30.48" length="middle" rot="R90"/>
+<pin name="COM2" x="2.54" y="-30.48" length="middle" rot="R90"/>
+<pin name="COM1" x="7.62" y="-30.48" length="middle" rot="R90"/>
+<pin name="COM0" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="PIN21" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="PIN22" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="PIN23" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="PIN24" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="GNDIO" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="XOUT32" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="XIN32" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="VDDIO" x="22.86" y="17.78" length="middle" rot="R180"/>
+<text x="8.128" y="-27.686" size="1.778" layer="95">&gt;NAME</text>
+<text x="8.128" y="25.908" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BNO055">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
